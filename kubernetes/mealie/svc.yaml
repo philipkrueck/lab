@@ -4,6 +4,7 @@ metadata:
   labels:
     app: mealie
   name: mealie
+  namespace: mealie
 spec:
   ports:
     - port: 9000
