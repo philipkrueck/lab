@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+  annotations:
+    mayfly.cloud.namecheap.com/expire: 30s
+spec:
+  containers:
+    - name: alpine
+      image: alpine
+      command:
+        - sleep
+        - infinity
+# requires deploying the Mayfly operator in the cluster: https://github.com/NCCloud/mayfly
