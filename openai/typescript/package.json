@@ -1,0 +1,21 @@
+{
+  "name": "ai-chat",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "typescript": "^5.1.6"
+  }
+}
