@@ -56,14 +56,6 @@ func main() {
 	treeOne, treeTwo := getTrees()
 
 	fmt.Println("Trees have equivalent values:", same(&treeOne, &treeTwo))
-
-	// go func() {
-	// 	for {
-	// 		fmt.Println(<-chanOne)
-	// 	}
-	// }()
-	//
-	// walk(&treeOne, chanOne)
 }
 
 func getTrees() (treeOne, treeTwo Tree) {
