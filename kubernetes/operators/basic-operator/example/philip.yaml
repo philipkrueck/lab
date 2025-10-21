@@ -1,0 +1,6 @@
+apiVersion: app.philipkrueck.com/v1alpha1
+kind: Philip
+metadata:
+  name: philip-sample
+spec:
+  replicas: 4
